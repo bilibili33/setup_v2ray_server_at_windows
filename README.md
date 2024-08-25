@@ -63,4 +63,6 @@
 
 ## 其他  
 其实查了一下v2fly的文档，应该是可以直接引用别的config文件的，但是试了试不成功，就按照最简单的方法来了
-[v2fly.org 命令行参数](https://www.v2fly.org/guide/command.html)
+[v2fly.org 命令行参数](https://www.v2fly.org/guide/command.html)  
+可以加tls，配合nginx做ws伪装，给服务器上个域名，拿nginx建个站挂个证书，给ws单独设置个路径，nginx做本地转发  
+[谷中望月](https://blog.kukmoon.com/08413c56e3db/) 写完了之后又搜了搜看到这篇文档，参考价值挺大  
